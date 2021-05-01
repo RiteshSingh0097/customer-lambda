@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "customerservice"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-5wylcrar7alp"
+s3_prefix = "customerservice"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
